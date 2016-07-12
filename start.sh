@@ -1,1 +1,1 @@
-apk update
+exit;
