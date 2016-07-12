@@ -7,6 +7,4 @@ ADD . /app
 WORKDIR /app
 RUN chmod +x start.sh
 VOLUME ["/data"]
-ENTRYPOINT ["app/start.sh"]
-
-
+ENTRYPOINT ["/app/start.sh"]
