@@ -6,7 +6,7 @@ RUN mkdir /app /data
 ADD . /app
 WORKDIR /app
 RUN chmod +x start.sh
-
+VOLUME ["/data"]
 ENTRYPOINT ["app/start.sh"]
 
-VOLUME ["/data"]
+
