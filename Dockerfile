@@ -1,7 +1,6 @@
 FROM alpine:latest
 
-RUN mkdir /app
-ADD . /app
+COPY start.sh /app/
 RUN chmod +x /app/start.sh
 
 VOLUME /data
