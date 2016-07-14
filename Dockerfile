@@ -1,8 +1,9 @@
 FROM alpine:latest
-MAINTAINER liubo@huwei123.com
 
-RUN mkdir /app /data
+RUN mkdir /app
 ADD . /app
 RUN chmod +x /app/start.sh
 
+VOLUME /data
+EXPOSE 80
 ENTRYPOINT ["/app/start.sh"]

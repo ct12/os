@@ -1,2 +1,2 @@
-apk --no-cache --no-progress add bash
-bash
+#!/bin/sh
+sh
