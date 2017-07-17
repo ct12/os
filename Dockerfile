@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM centos:latest
 
 COPY ["start.sh","/app/"]
 RUN chmod +x /app/start.sh

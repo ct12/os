@@ -1,2 +1,2 @@
-#!/bin/sh
-exec sh
+#!/bin/bash
+exec bash

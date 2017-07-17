@@ -1,3 +1,3 @@
 # os
 docker images
-基于alpine的docker镜像
+基于centos的docker镜像
