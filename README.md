@@ -1,3 +1,3 @@
 # os
 docker images
-基于debian的docker镜像
+基于ubuntu的docker镜像
