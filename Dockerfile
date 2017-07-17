@@ -1,7 +1,6 @@
 FROM alpine:latest
 
 RUN mkdir /data/
-COPY start.sh /data/
-RUN chmod +x /data/start.sh
+COPY ["start.sh","/data/"]
 
 ENTRYPOINT ["/data/start.sh"]
