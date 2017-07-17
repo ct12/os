@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM debian:latest
 
 COPY ["start.sh","/app/"]
 RUN chmod +x /app/start.sh
