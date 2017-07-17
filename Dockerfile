@@ -1,6 +1,5 @@
 FROM alpine:latest
 
-RUN mkdir /data/
-COPY ["start.sh","/data/"]
-
-ENTRYPOINT ["/data/start.sh"]
+COPY ["start.sh","/app/"]
+VOLUME ["/data"]
+ENTRYPOINT ["/app/start.sh"]
