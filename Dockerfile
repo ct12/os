@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-COPY start.sh /app/
-RUN chmod +x /app/start.sh
+COPY start.sh /data/
+RUN chmod +x /data/start.sh
 
 VOLUME /data
 EXPOSE 80
